@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #3f5a61;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div, section, form, span, p, button {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+input {
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #394b50;
+    cursor: pointer;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #e7ffa0;
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__item {
+    margin-right: 20px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.chat {
+    padding: 50px 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.chat-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #cccccc21;
+    height: 240px;
+}
+
+
+.userMassage {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100px;
+    width: 450px;
+    border: 1px solid #3f5a6142;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+.botMassage {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 450px;
+    border: 1px solid #3f5a6142;
+    border-radius: 15px;
+    height: 100px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.chat-input {
+    display: flex;
+}
+
+.chat-input__text {
+    width: 65%;
+    padding: 1%;
+    height: 50px;
+    margin: 0 auto;
+    background: rgba(81, 101, 204, 0.13);
+}
+
+/*---- button----*/
+
+.button {
+    width: 35%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #00008029;
+    background: #2ad25f36;
+}
+
+/*---- button----*/

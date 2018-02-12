@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/chat-style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" alt="Chat" class="logo__img">
+            <h1 class="logo__title">
+                MyChat
+            </h1>
+        </div>
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#">
+                    About Chat
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="#">
+                    Contacts
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="#">
+                    Register
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="#">
+                    Sign in
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<section class="chat">
+        <div class="chat-display" id="display">
+            <div id="userMassage">
+                <p class="time"></p>
+                <p class="guest"></p>
+                <p id="userTextBox"></p>
+            </div>
+            <div id="botMassage">
+                <p class="time"></p>
+                <p class="goddess"></p>
+                <p id="botTextBox"></p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input id="textInput" class="chat-input__text" type="text" placeholder="Go-chatan-Go">
+            <button class="button" id="btn">click</button>
+        </div>
+</section>
+
+<script type="text/javascript" src="js/chat.js"></script>
+</body>
+</html>
